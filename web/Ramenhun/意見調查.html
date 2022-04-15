@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh_hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./0329.css" />
+    <title>意見調查</title>
+  </head>
+  <body>
+    <header>
+      <p class="pp1">意見調查</p>
+    </header>
+    <hr />
+
+    <nav>
+      <ul>
+        <li>
+          <a href="./首頁.html"
+            ><img class="ramenicon" src="./img/iconramen.png" alt="" />首頁</a
+          >
+        </li>
+        <li>
+          <a href="./拉麵介紹.html"
+            ><img
+              class="ramenicon"
+              src="./img/iconramen.png"
+              alt=""
+            />拉麵介紹</a
+          >
+        </li>
+        <li>
+          <a href="./拉麵地點.html"
+            ><img
+              class="ramenicon"
+              src="./img/iconramen.png"
+              alt=""
+            />拉麵地點</a
+          >
+        </li>
+        <li>
+          <a href="./意見調查.html"
+            ><img
+              class="ramenicon"
+              src="./img/iconramen.png"
+              alt=""
+            />意見調查</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <br />
+    <h2>意見回饋調查</h2>
+    <div class="wrapper" id="formdiv">
+      <main class="form">
+        <form action="">
+          <label for="id">姓名：</label
+          ><input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="請輸入您的姓名"
+            required="required"
+          />
+          <br /><br />
+          <label for=" nice">電話：</label>
+          <input
+            type="tel"
+            id="nice"
+            name="phone"
+            value=""
+            required="required"
+            placeholder="請輸入您的電話"
+          />
+          <br />
+          <br />
+          <label for="select">您給今天幾分呢？  </label>
+          <input type="range" id="select" name="ramen" />
+          <br /><br />
+          <label for="s">點選今天想要吃的拉麵：</label>
+          <select name="e" id="s">
+            <option value=""></option>
+            <option value="">豚骨白湯拉麵</option>
+            <option value="">究極辣麵番茄拉麵</option>
+            <option value="">燻雞濃湯拉麵</option>
+          </select>
+
+          <br />
+          <label for="textareaa">歡迎留言：</label>
+          <br />
+          <textarea
+            name="textareaa"
+            id="textarea"
+            cols="30"
+            rows="10"
+            placeholder="please type here"
+          ></textarea>
+          <br />
+          <button type="submit">提交表單</button>
+        </form>
+      </main>
+
+      <img src="./img/pexels-vie-studio-4439414.jpg" alt="">
+    </div>
+    <hr />
+
+    <footer class="footer">
+      <p class="pp2">© 2022 cindychiu Powered by momo & momo GitHub</p>
+    </footer>
+  </body>
+</html>

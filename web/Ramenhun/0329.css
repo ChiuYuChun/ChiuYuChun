@@ -1,0 +1,230 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 2em;
+}
+label {
+    font-size: 20px;
+
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    
+}
+p.pp1 {
+    text-align:left;
+    font-size: 2.5rem;
+    text-shadow:1px 1px 2px black ;
+
+}
+
+main.pp2 {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    padding: 2rem; 
+
+}
+
+.article{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    padding: 2rem;
+   
+
+}
+.article1{
+    padding: 1rem;
+    
+}
+.article2{
+    padding: 1.5rem 1rem;
+   
+}
+form{
+    width:500px;
+    height: 500px;
+}
+main.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 2rem;
+}
+
+nav{
+    background-color: #9a32f0;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0.2rem;
+}
+nav ul li{
+    padding: 0.8rem;
+}
+
+nav ul li a{
+list-style-type: none;
+color: aliceblue;
+list-style: none;
+text-decoration: none;
+font-size: 24px;
+text-shadow: 1px 1px 2px black ;
+}
+    
+
+p:active {
+
+    color: rgba(75, 228, 255, 0.856);
+}
+
+textarea:hover {
+
+    color: rgba(75, 228, 255, 0.856);
+}
+
+#s {
+    margin: 0.5rem;
+    display: block;
+}
+
+
+table {
+    margin: 3rem;
+}
+
+
+div.con {
+
+    width: 200px;
+    height: 200px;
+    background: black;
+    position: relative;
+
+}
+
+div.box {
+
+    width: 55px;
+    height: 55px;
+    transition: all 1s;
+    background: #9a32f0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+header {
+    background-image: url(./img/2t28IxSTqF4.jpg);
+    background-position:  50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 5rem;
+    object-fit: cover;
+}
+.pp1:hover{
+    cursor: pointer;
+    color: #9a32f0;
+}
+img{
+
+    border-radius: 30px;
+    width: 500px;
+    height: 450px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.ramenicon{
+    width: 35px;
+    height: 35px;
+}
+ul :hover{
+    color: rgb(221, 232, 59);
+    transition: all 0.5s;
+}
+p.pp2{
+    text-align: right;
+    color: white;
+}
+.wrapper {
+    min-height: calc(100% - 50px); /*減去footer高度*/
+  }
+.footer{
+
+    padding: 0.8rem;
+    background-color: purple;
+    height: 50px;
+}
+
+/* 0329_2.html */
+
+/* CSS for 表格 */
+table,
+td,
+th,
+tr {
+    border-collapse: collapse;
+    border-bottom: 2.5px solid rgb(36, 36, 54);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+td,
+tr {
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(45, 61, 134);
+
+}
+
+tr.tr1{
+    background-color: #9a32f0;
+}
+@media screen and (max-width :800px){
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+h2{
+    text-align: left;
+    margin-left: 6rem;
+}
+
+#formdiv {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.up{
+    width: 5%;
+    height: 5%;
+    opacity: 65%;
+}
+
+main.div{
+    display: flex;
+align-items: flex-end;
+}

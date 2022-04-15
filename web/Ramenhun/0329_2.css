@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 1.75rem;
+}
+header {
+    background-color: purple;
+    color: aliceblue;
+}
+nav{
+    background-color: plum;
+
+    
+}
+
+p.pp1 {
+    text-align:left;
+    font-size: 32px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0.2rem;
+}
+nav ul li{
+    padding: 1.2rem;
+}
+
+nav ul li a{
+list-style-type: none;
+color: aliceblue;
+list-style: none;
+text-decoration: none;
+font-size: 24px;
+}
+    
+
+p:active {
+
+    color: rgba(75, 228, 255, 0.856);
+}
+
+
+img{
+
+    border-radius: 30px;
+    width: 500px;
+    height: 450px;
+}
+
+
+/* CSS for 表格 */
+table,
+td,
+th,
+tr {
+    border-collapse: collapse;
+    border-bottom: 2.5px solid rgb(36, 36, 54);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+td,
+tr {
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(45, 61, 134);
+
+}
+
+th {
+   
+    opacity: 8;
+    color: white;
+    font-size: 36px;
+    cursor: pointer;
+}
+tr {
+    /* property animation-name: ; */
+    /* transition: background-color 1s; */
+    transition: all 1s;
+
+}
+tr:hover {
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+
+}
