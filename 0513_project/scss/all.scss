@@ -1,0 +1,56 @@
+
+@import"variable";
+@import "base";
+@import"reset";
+
+
+@import"mixin";
+// 表頭選單
+@import"layout";
+// 首頁
+@import "index";
+// 產品頁面
+@import "cart";
+
+@import "module/button-min";
+
+
+html{
+    margin: 0 auto;
+    width: 640px;
+    padding-top: 50px;
+  }
+
+  $fz20:20px;
+  $line-height:1.2;
+  $color:rgb(255, 255, 255);
+
+ .dis-flex {
+    display: flex;
+}
+.dis-wrap{
+    flex-wrap: wrap;
+}
+.list-message{
+padding-right: 10px;
+margin-bottom: 10px;
+}
+.imgstyle{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+.text-style{
+    font-size: $fz20;
+    line-height: $line-height;
+}
+  .footer{
+    text-align: center;
+      .footertext{
+      text-decoration: none;
+    display: block;
+      color: $color;
+      background: gray;
+      padding: 25px 0;
+    }
+  }
